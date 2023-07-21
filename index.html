@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="imageslider.css">
+    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="imagehide.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="overlay.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+</head>
+
+<body>
+    <!-- code for header -->
+    <div class="header_main">
+
+        <div class="left">Cafe</div>
+        <ul class="center">
+            <div class="home">
+                <li onclick="first()">Home</li>
+
+                <ul class="home_content">
+                    <li>Home1</li>
+                    <li>Home2</li>
+                    <li>Home3</li>
+                    <li>Home4</li>
+                </ul>
+            </div>
+            <div class="about">
+                <li onclick="second()">About Us</li>
+                <ul class="about_content">
+                    <li>About1</li>
+                    <li>About2</li>
+                    <li>About3</li>
+                    <li>About4</li>
+                </ul>
+            </div>
+            <div class="service">
+                <li onclick="third()">Service</li>
+                <ul class="service_content">
+                    <li>Service1</li>
+                    <li>Service2</li>
+                    <li>Service3</li>
+                    <li>Service4</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <li onclick="forth()">Contact Us</li>
+                <ul class="contact_content">
+                    <li>Content1</li>
+                    <li>Content2</li>
+                    <li>Content3</li>
+                    <li>Content4</li>
+                </ul>
+            </div>
+            <div class="news">
+                <li onclick="fifth()">News</li>
+                <ul class="news_content">
+                    <li>News1</li>
+                    <li>News2</li>
+                    <li>News3</li>
+                    <li>News4</li>
+                </ul>
+            </div>
+        </ul>
+
+        <div class="right">
+            <i class="fa-solid fa-magnifying-glass" title="search"></i>
+            <i class="fa-solid fa-user" title="you"></i>
+        </div>
+    </div>
+    <!-- code for slider -->
+    <div class="container">
+        <div class="image-container">
+            <img src="https://m.media-amazon.com/images/I/71a0PWlJPUL.jpg" id="content1" class="active">
+            <img src="https://curlytales.com/wp-content/uploads/2023/04/1022.jpg" id="content2">
+            <img src="https://b.zmtcdn.com/data/pictures/0/20333900/2aa1435a49ef320aaa0bf48313f08e12_featured_v2.jpg"
+                id="content3">
+            <img src="https://static.businessworld.in/article/article_extra_large_image/1671645934_YhEQcv_Hard_Rock_Cafe_New_Delhi_Janpath.jpg"
+                id="content4">
+        </div>
+        <button id="prev" onclick="prev()"> &lt; </button>
+        <button id="next" onclick="next()"> &gt; </button>
+    </div>
+    <!-- code for image  -->
+    <div class="main">
+        <div class="btn-point">
+            <button onclick="show()">Home</button>
+            <button onclick="showon()">Service</button>
+            <button onclick="showonn()">Contact</button>
+        </div>
+        <div class="imagecontainer">
+            <img src="https://i.pinimg.com/236x/75/34/66/75346682e8e379d43a04225469c59d7a.jpg" id="con1" class="active">
+            <img src="https://www.technipages.com/wp-content/uploads/2019/07/Cover-600x371.jpg" id="con2">
+            <img src="https://hindistatusnow.com/wp-content/uploads/2023/01/Smile-Whatsapp-DP-Images-9.jpg" id="con3">
+        </div>
+    </div>
+    <!-- images for button -->
+    <div class="main1">
+        <div class="button-point">
+            <button onclick="cofee()">Cofee</button>
+            <button onclick="tea()">Tea</button>
+            <button onclick="colddrink()">ColdDrink</button>
+            <button onclick="fastfood()">FastFood</button>
+            <button onclick="allitem()">All Item</button>
+        </div>
+        <div class="imgcon">
+            <div class="row active1" id="item1">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1303583671/photo/cup-glass-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.jpg?s=612x612&w=0&k=20&c=fAh3m6Hqxz-qeA45Tj2jGARhRiGFhgm80dLVthnvlD8="
+                        alt="daf">
+                    <h2>Hot Cofee</h2>
+                </div>
+                <div class="card">
+                    <img src="https://t4.ftcdn.net/jpg/01/16/61/93/360_F_116619399_YA611bKNOW35ffK0OiyuaOcjAgXgKBui.jpg"
+                        alt="">
+                    <h2>Flat White</h2>
+                </div>
+                <div class="card">
+                    <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?cs=srgb&dl=pexels-chevanon-photography-312418.jpg&fm=jpg"
+                        alt="">
+                    <h2> macchito</h2>
+                </div>
+                <div class="card">
+                    <img src="https://assets.architecturaldigest.in/photos/60083ed208ae763b9ae8542d/16:9/w_2560%2Cc_limit fermented-coffee-beverage-brew-1366x768.jpg"
+                        alt="">
+                    <h2>Latte</h2>
+                </div>
+
+            </div>
+            <div class="row" id="item2">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfKlRcHmgkXPPcb2DadcaNe2rX9D11b2r0_TlVD8M6&s"
+                        alt="">
+                    <h2>Green tea</h2>
+                </div>
+                <div class="card">
+                    <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2013/02/ginger-tea-recipe-2.jpg"
+                        alt="">
+                    <h2>Green tea</h2>
+                </div>
+                <div class="card">
+                    <img src="https://www.archanaskitchen.com/images/archanaskitchen/beverages/Green_tea_recipe.jpg"
+                        alt="">
+                    <h2>Green tea</h2>
+                </div>
+                <div class="card">
+                    <img src="https://images.everydayhealth.com/images/teas-that-can-help-or-harm-your-heart-black-tea-1440x810.jpg"
+                        alt="">
+                    <h2>Green tea</h2>
+                </div>
+            </div>
+            <div class="row" id="item3">
+                <div class="card">
+                    <img src="https://e0.pxfuel.com/wallpapers/878/320/desktop-wallpaper-cold-coca-cola-red-liquid-soft-drink-bottle-coca-cola-thumbnail.jpg"
+                        alt="">
+                    <h2>Sprite</h2>
+                </div>
+                <div class="card">
+                    <img src="https://us.123rf.com/450wm/cookelma/cookelma1501/cookelma150100176/35584278-moscow-russia-april-4-2014-can-of-coca-cola-company-soft-drink-sprite-on-ice-it-was-introduced.jpg?ver=6"
+                        alt="">
+                    <h2>Sprite</h2>
+                </div>
+                <div class="card">
+                    <img src="https://t4.ftcdn.net/jpg/02/88/22/61/360_F_288226138_mJ2m6PgyorgjuzbWBvuwv4YO09EeYHRA.jpg"
+                        alt="">
+                    <h2>Sprite</h2>
+                </div>
+                <div class="card">
+                    <img src="https://mir-s3-cdn-cf.behance.net/projects/404/01e5dc166033209.Y3JvcCwxMDgwLDg0NCwwLDExNw.jpg"
+                        alt="">
+                    <h2>Sprite</h2>
+                </div>
+            </div>
+            <div class="row" id="item4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1512152272829-e3139592d56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzdCUyMGZvb2R8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+                        alt="">
+                    <h2>Burger</h2>
+                </div>
+                <div class="card">
+                    <img src="https://images.healthshots.com/healthshots/en/uploads/2023/02/09155200/pizza-1.jpg"
+                        alt="">
+                    <h2>Burger</h2>
+                </div>
+                <div class="card">
+                    <img src="https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content9442.jpg" alt="">
+                    <h2>Burger</h2>
+                </div>
+                <div class="card">
+                    <img src="https://clickamericana.com/wp-content/uploads/Vintage-1970s-restaurants.jpg" alt="">
+                    <h2>Burger</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- code for form -->
+    <div class="main2">
+        <div class="submain">
+            <h1>Get In Touch</h1> 
+            <form onsubmit="return validate()" action="#">
+              
+          <input type="text" placeholder="Username" id="username"><br>
+          <p id="error1"></p>
+         
+
+          <input type="email" id="email" placeholder="Email"><br>
+          <p id="emailip"></p>
+          <input type="password" placeholder="Password"><br>
+          <input type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+
+    <!-- code for overlay -->
+       
+<!-- <div class="main3">
+    <div class="container3">
+<img src="https://www.w3schools.com/css/img_avatar.png" alt="Avatar" class="image">
+<div class="overlay">
+
+</div>
+</div>
+
+<div class="container3">
+<img src="https://www.w3schools.com/css/img_avatar.png" alt="Avatar" class="image">
+<div class="overlay">
+ 
+</div>
+</div>
+
+    <div class="container3">
+<img src="https://www.w3schools.com/css/img_avatar.png" alt="Avatar" class="image">
+<div class="overlay">
+
+</div>
+</div>
+
+<div class="container3">
+<img src="https://www.w3schools.com/css/img_avatar.png" alt="Avatar" class="image">
+<div class="overlay">
+ 
+</div>
+</div>
+
+<div class="container3">
+  <img src="https://www.w3schools.com/css/img_avatar.png" alt="Avatar" class="image">
+  <div class="overlay">
+   
+  </div>
+</div>
+
+      <div class="container3">
+<img src="https://www.w3schools.com/css/img_avatar.png" alt="Avatar" class="image">
+<div class="overlay">
+ 
+</div>
+</div>
+
+</div> -->
+</body>
+<script src="header.js"></script>
+<script src="imageslider.js"></script>
+<script src="image.js"></script>
+<script src="imagehide.js"></script>
+<script src="form.js"></script>
+
+</html>

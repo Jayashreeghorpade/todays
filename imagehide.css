@@ -1,0 +1,94 @@
+.main1 {
+    height: 800px;
+}
+
+.button-point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap: 100px;
+}
+
+.button-point button {
+    padding: 13px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: brown;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    border-bottom: 4px solid black;
+}
+
+.main1 {
+   
+    height: 800px;
+}
+
+.button-point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    gap: 100px;
+}
+
+.button-point button {
+    padding: 13px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: brown;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    border-bottom: 4px solid black;
+}
+
+.imgcon {
+
+    position: relative;
+
+}
+
+.row .active1 {
+    display: flex;
+}
+
+.row {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    display: none;
+}
+
+.active1 {
+    display: block;
+}
+
+.card {
+
+    background: #F8F8F8;
+    box-shadow: 3px 4px 10px rgb(0 0 0 / 60%);
+    border-radius: 10px;
+    padding: 10px;
+    width: 18%;
+    height: 300px;
+}
+
+.card img {
+    height: 250px;
+    width: 240px;
+    border-radius: 8px;
+    display: block;
+
+}
+.card h2{
+    text-align: center;
+}

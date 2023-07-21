@@ -1,0 +1,43 @@
+.main3{
+    position: relative;
+    height: 800px;
+    display: flex;
+    gap:100px;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.image {
+
+width: 100%;
+
+}
+
+.container3{
+    position: relative;
+    width: 20%;
+    flex: 0 0 20%;
+
+
+}
+.container3 img{
+    display: block;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #02ff57;
+    width: 100%;
+    height: 0;
+    transition: height ease 0.5s;
+ 
+   
+}
+
+.container3:hover .overlay {
+height: 100%;
+}

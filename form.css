@@ -1,0 +1,52 @@
+.main2{
+    background-image: url("https://img.freepik.com/free-photo/wooden-board-empty-table-top-blurred-background_1253-1584.jpg?w=740&t=st=1689818937~exp=1689819537~hmac=2e1e5edde7050bde3c1f15f9070a9ed855664aedbdf13e64ad03b15a22bbdfd9");
+    height: 800px;
+
+    background-repeat: no-repeat;
+    background-size:cover;
+     position: relative;
+    
+}
+.submain{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    border-radius: 10px;
+   
+}
+.submain h1{
+ text-align: center;
+    color: white;
+}
+form{
+    text-align: center;
+   
+}
+input{
+ margin-top: 20px;
+ padding: 12px;
+ border: none;
+ background-color: rgb(226, 226, 243);
+ width: 400px;
+}
+input:focus{
+    outline: none;
+}
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+    width: 150px;
+    font-size: 20px;
+    border-bottom: 4px solid rgb(194, 28, 28);
+    border-radius: 10px;
+}
+
+#error1{
+color: red;
+}
